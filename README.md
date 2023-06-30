@@ -8,12 +8,14 @@ This my documentation/ tutorial of how I went about using VRPSolvereasy!!! :-)
    The 'Config' file should look like the following:
    Note, I renamed the 'Host' name to be: ROAR_Collab
    (also make you to never put spaces in whatever you save!!)
-
-   ![image](https://github.com/mventura00/VRPsolvereasy/assets/44207428/130b10af-9342-41bb-87f4-a296f2fc5c54)
+   
+![Config file - how I created host name](https://github.com/mventura00/VRPsolvereasy/assets/44207428/d73accc7-72d8-4184-a3bc-da306b12b1c8)
 
 **Steps of "How to connect to ROAR Collab"**
 1. To connect to ROAR Collab, select the little blue/green button on the lower left hand corner. Looks like this:
-   ![image](https://github.com/mventura00/VRPsolvereasy/assets/44207428/9b5d078c-5f0c-44c6-88e1-30cf74bc8933)
+![SSH ROAR_Collab connection button](https://github.com/mventura00/VRPsolvereasy/assets/44207428/6b7ce07d-819a-443e-9106-580da3c71033)
+
+   
 2. Then, select "Connect to Host"
 3. Select "ROAR_Collab"
 4. Select: work
@@ -58,21 +60,24 @@ This my documentation/ tutorial of how I went about using VRPSolvereasy!!! :-)
    PD --> if file is in queue, it's pending!
    R --> if file is running! If it is, then it will say something like "on p-sc-2330" which means it is running on the node #2330.
    See screenshot below:
-![image](https://github.com/mventura00/VRPsolvereasy/assets/44207428/d4e2db22-09f8-459a-9289-d49f1d7d4262)
+   
+ ![To check if task is running or pending](https://github.com/mventura00/VRPsolvereasy/assets/44207428/a552b5f3-bdc7-46ca-8252-409d4bfe0435)
+
 
  **Steps of "How to check if if a job DONE running!"** 
 
  1. Make sure to refresh the screen at the top 'toolbar' area:
-![image](https://github.com/mventura00/VRPsolvereasy/assets/44207428/e427baf7-e369-465e-ad9e-ed66c1b9fca8)
+
+![refresh button](https://github.com/mventura00/VRPsolvereasy/assets/44207428/80510aad-139a-47d3-a98a-339721f169a8)
 
 2. Then, check the "Output" file, and see what the output shows
-
 
 **Steps of "How to set-up your 'Submit.sh' file"**
 1. Make sure to set up your 'Submit.sh' file, before you can try to send or submit any jobs.
 2. Notice everythign I typed in the screenshot.
 
-![image](https://github.com/mventura00/VRPsolvereasy/assets/44207428/a22ef310-5a35-49fe-8907-158fde64e754)
+![submit sh file - what it contains](https://github.com/mventura00/VRPsolvereasy/assets/44207428/cb020046-5417-4789-ab5a-dc3245fa2cca)
+
 
 The first 4 lines are the bin/bash scripts. 
 #SBATCh --nodes=1
