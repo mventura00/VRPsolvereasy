@@ -74,6 +74,25 @@ This my documentation/ tutorial of how I went about using VRPSolvereasy!!! :-)
 
 ![image](https://github.com/mventura00/VRPsolvereasy/assets/44207428/a22ef310-5a35-49fe-8907-158fde64e754)
 
+The first 4 lines are the bin/bash scripts. 
+#SBATCh --nodes=1
+#SBATCh --ntask=1
+#SBATCh --mem=16GB
+#SBATCh --time= 48:00:00
+#SBATCH --partition=open 
+
+Note, the max time allowable to run (for FREE) is 48 hrs. I updated the memory to '16GB'
+I **added these extra 3 lines** (that from what is instructed on the PSU ROAR website: https://www.icds.psu.edu/running-batch-jobs-on-roar-collab/
+#SBATCH --output=HFVRPoutput.out
+#SBATCH --error=HFVRPerror.err
+#SBATCH --job-name=HFVRP
+
+So that it puts the 'output' and 'error' in a different script file!
+
+Notice, that I put the pathway of where 'python' is stored/saved... this is the "Python interpretor", so it tells it exactly the path!
+The 'HFVRP.py' is the name of the file that yo uwwant to run
+
+
 node = 1
 ntask = 1
 
@@ -82,4 +101,5 @@ node =1 , uses that it uses 1 server rack, where each 'server rack' has 40 diffe
 ntask = 1 , means it is using 1 processor, but we can use up to 100 processors per job if we wanted to ...and in order to do that, we would need to 'parallelize our jobs', and python has some sort of 'parallel' package, and he sent me this information. The package to use is called "multiprocessing"...but read  more about it here:
 https://docs.python.org/3/library/multiprocessing.html
 
+So, if you'd like to parallelize your script (then you need to change the value of ntasks).
 
