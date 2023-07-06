@@ -1,4 +1,4 @@
-# VRPsolvereasy  -- Marta Ventura's Journey of getting 'VRPsolvereasy' to run (with the help of Waquar Kaleem!)
+# VRPsolvereasy  -- Marta Ventura's Journey of getting 'VRPsolvereasy' to run  
 This my documentation/ tutorial of how I went about using VRPSolvereasy!!! :-)
 
 **Steps of "How to set up your config file for ROAR Collab"**
