@@ -1,4 +1,7 @@
-# VRPsolvereasy  -- Marta Ventura's Journey of getting 'VRPsolvereasy' to run  
+# VRPsolvereasy  -- Marta Ventura's Journey of getting 'VRPsolvereasy' to run, which is a Python interface for VRPSolver, a state-of-the-art Branch-Cut-and-Price exact solver for vehicle routing problems
+Read more about it here: 
+https://pypi.org/project/VRPSolverEasy/
+
 This my documentation/ tutorial of how I went about using VRPSolvereasy!!! :-)
 
 **Steps of "How to set up your config file for ROAR Collab"**
