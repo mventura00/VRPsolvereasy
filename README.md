@@ -51,7 +51,7 @@ This my documentation/ tutorial of how I went about using VRPSolvereasy!!! :-)
     (to make sure python is installed and everything is all set up)
 16. I have had it ask me at the bottom, to select a 'Python Interpreter' so make sure to do that too!
 17. Now, in order to submit a job, make sure to type:
-**    sbatch submit.sh**
+sbatch submit.sh
 
     (the 's' in 'sbatch' is because its a SLURN operator, a scheduler)
 
