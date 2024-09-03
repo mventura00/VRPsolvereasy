@@ -32,9 +32,12 @@ This my documentation/ tutorial of how I went about using VRPSolvereasy!!! :-)
 8. Then, need to make sure 'Anaconda3' is loaded, so type:
    module load anaconda3
 9. Then , you need to activate your 'local environment', so make sure to type:
+    conda activate vrp
+
+   (Or you can write):
     source activate vrp
    (note: put 'source' instead of 'conda' as conda may break some inter-active desktops)
-10. To make sure that 'pip' is there, type:  which pip
+11. To make sure that 'pip' is there, type:  which pip
     (note: pip is usually already installed)
    If it is not, Type:  python -m pip install --upgrade pip
 (these are 1 of 2 commands on VRPSolverEasy website:  https://github.com/inria-UFF/VRPSolverEasy/tree/master  (at the very bottom!!0
